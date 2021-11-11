@@ -1,0 +1,184 @@
+Region,Destination,Manufacturer,Doses purchased (millions),Doses donated (millions),Purchased doses delivered (millions),Donated doses delivered (millions),Total doses delivered (millions),Notes,Income Level
+Africa,Algeria,"Sinovac, Sinopharm",5,0.2,5,0.2,5.2,,Lower Middle
+,,Sinopharm,0,0.2,0,0.2,0.2,,
+,,Sinovac,5,0,5,0,5,,
+,Angola,Sinopharm,10,0.2,3.5,0.2,3.7,,Lower Middle
+,Arab Republic of Egypt,"Sinopharm, Sinovac",28.1,0.6,13.5244,0.6,14.1244,,Lower Middle
+,,Sinopharm,20,0.6,7.4244,0.6,8.0244,,
+,,Sinovac,8.1,0,6.1,0,6.1,,
+,Benin,Sinovac,0.103,0.1,0.103,0.1,0.203,"Unknown amount donated, but received",Lower Middle
+,Botswana,Sinovac,0.604494,0.2,0.604494,0.2,0.804494,,Upper Middle
+,Burkina Faso,Sinopharm,0,0.4,0,0.4,0.4,,Low
+,Burundi,Sinopharm,0,0.5,0,0.5,0.5,,Low
+,Cameroon,Sinopharm,0,0.2,0,0.2,0.2,,Lower Middle
+,Cape Verde,Sinopharm,0,0.05,0,0.05,0.05,,Lower Middle
+,Central African Republic,Sinovac,0,0.15,0,0.15,0.15,Undisclosed amount arrived,Low
+,Chad,Sinopharm,0,0.2,0,0.2,0.2,,Low
+,Comoros,Sinopharm,0,0,0,0,0,"Unknown amount donated, received",Lower Middle
+,Congo,Sinopharm,0,0.1,0,0.1,0.1,Congo Republic (Brazzaville),Lower Middle
+,Côte d'Ivoire,Sinopharm,0,0.1,0,0.1,0.1,,Lower Middle
+,Democratic Republic of Congo,Sinovac,0,0.4,0,0.4,0.4,,Low
+,Djibouti,Sinovac,0.1,0.2,0.1,0.2,0.3,,Lower Middle
+,Equatorial Guinea,Sinopharm,0.5,0.1,0.5,0.1,0.6,,Lower Middle
+,Ethiopia,Sinopharm,0,1.8,0,1.8,1.8,"100K donated by the Chinese Red Cross Society to its Ethiopian counterpart, 200K donated by military",Low
+,Gabon,Sinopharm,0,0.1,0,0.1,0.1,,Upper Middle
+,Guinea,"Sinovac, Sinopharm",0.3,0.4,0.3,0.4,0.7,,Low
+,,Sinopharm,0,0.4,0,0.4,0.4,,
+,,Sinovac,0.3,0,0.3,0,0.3,,
+,Guinea-Bissau,Sinopharm,0,0.3,0,0.3,0.3,,Low
+,Kenya,Sinopharm,0,2,0,0.2,0.2,,Lower Middle
+,Lesotho,Sinopharm,0,0.20334,0,0.20334,0.20334,,Lower Middle
+,Libya,Sinopharm,5.06,0,5.06,0,5.06,,Upper Middle
+,Madagascar,Sinopharm,0,0.3,0,0.3,0.3,,Low
+,Malawi,Undisclosed,0,0.3,0,0,0,,Low
+,Mauritania,Sinopharm,0,0.33,0,0.33,0.33,,Lower Middle
+,Mauritius,Sinopharm,1.5,0.1,1.5,0.1,1.6,,Upper Middle
+,Mozambique,Sinopharm,2,0.26,2,0.26,2.26,,Low
+,Morocco,Sinopharm,22.5,0,22.5,0,22.5,"last 500k not accounted for, tally matched up media report",Lower Middle
+,Namibia,Sinopharm,0.6,0.1,0.25,0.1,0.35,,Upper Middle
+,Niger,Sinopharm,0,0.4,0,0.4,0.4,,Low
+,Nigeria,Sinopharm,0,0.47,0,0.47,0.47,,Lower Middle
+,Rwanda,Sinopharm,0,0.2,0,0.2,0.2,,Low
+,Senegal,Sinopharm,0.532118,0.3,0.532118,0.3,0.832118,,Lower Middle
+,Sierra Leone,Sinopharm,0,0.4,0,0.4,0.4,,Low
+,Somalia,Sinopharm,0,0.2,0,0.2,0.2,,Low
+,South Sudan,Sinopharm,0,0.1,0,0,0,,Low
+,Sudan,Sinopharm,0,0.65,0,0.65,0.65,,Low
+,South Africa,Sinopharm,10,0,0,0,0,,Upper Middle
+,Tanzania,"Sinopharm, Sinovac",2,0.1,0.576558,0.1,0.676558,,Lower Middle
+,,Sinovac,0,0.1,0,0.1,0.1,,
+,,Sinopharm,2,0,0.576558,0,0.576558,,
+,Togo,Sinovac,0,0.4,0,0.4,0.4,,Low
+,Tunisia,Sinovac,0.5,0.6,0.5,0.6,1.1,,Lower Middle
+,Uganda,Sinovac,0,1.3,0,1,1,,Low
+,Zambia,Sinopharm,0.1,0.2,0,0.1136,0.1136,0.0136 for Chinese nationals in Zambia,Lower Middle
+,Zimbabwe,"Sinopharm, Sinovac",11.2,1,11.4168,1,12.4168,,Lower Middle
+,,Sinopharm,5,1,5.2168,1,6.2168,,
+,,Sinovac,6.2,0,6.2,0,6.2,Doses procured inferred from doses arrived,
+Asia,Afghanistan,"Sinopharm, Undisclosed",0,3.7,0,0.7,0.7,,Low
+,,Sinopharm,0,0.7,0,0.7,0.7,,
+,,Undisclosed,0,3,0,0,0,,
+,Armenia,"Sinovac, Sinopharm",0.4,0.1,0.4,0.1,0.5,,Upper Middle
+,,Sinovac,0,0.1,0,0.1,0.1,,
+,,Sinopharm,0.4,0,0.4,0,0.4,,
+,Azerbaijan,Sinovac,5,0,0.5,0,0.5,,Upper Middle
+,Bahrain,Sinopharm,0.3,0,0.3,0,0.3,,High
+,Bangladesh,"Sinopharm, Sinovac",75,5.4,35.895,5.4,41.295,,Lower Middle
+,,Sinopharm,75,4.4,35.895,4.4,40.295,,
+,,Sinovac,0,1,0,1,1,,
+,Bhutan,Sinopharm,0.05,0,0.05,0,0.05,,Lower Middle
+,Brunei Darussalam,Sinopharm,0,0.152,0,0.152,0.152,,High
+,Cambodia,"Sinovac, Sinopharm",30.5,9.303,28.5,6.303,34.803,Data as of 8/7,Lower Middle
+,,Sinopharm,4,6.803,4,3.803,7.803,,
+,,Sinovac,26.5,2.5,24.5,2.5,27,,
+,Georgia,"Sinovac, Sinopharm",2.1,0.2,1.6,0.2,1.8,,Upper Middle
+,,Sinovac,1,0.1,1,0.1,1.1,,
+,,Sinopharm,1.1,0.1,0.6,0.1,0.7,,
+,Indonesia,"Sinovac, Sinopharm",211.979,1,204.679,1,205.679,Data as of 21/6.,Lower Middle
+,,Sinovac,196.979,1,196.979,1,197.979,Total bulk is 111.5m,105 million raw materials
+,,Sinopharm,15,0,7.7,0,7.7,,
+,Iraq,Sinopharm,0.5,1.75,0.5,1.75,2.25,0.5 assumed to be purchased,Upper Middle
+,Islamic Republic of Iran,Sinopharm,82.17,3.55,82.17,3.55,85.72,Numbers were matched with the latest reported tally due to language barriers,Lower Middle
+,Jordan,Sinopharm,0,0,0.196,0,0.196,unspecificed amount donated by China,Upper Middle
+,Kazakhstan,"Sinopharm, Sinovac",6.5,0,1.5,0,1.5,,Upper Middle
+,,Sinovac,2.5,0,0.5,0,0.5,,
+,,Sinopharm,4,0,1,0,1,,
+,Kyrgyz Republic,Sinopharm,2.35,0.8,2.35,0.3,2.65,,Lower Middle
+,Lao People's Democratic Republic,Sinopharm,0,5.302,0,5.302,5.302,,Lower Middle
+,Lebanon,"Undisclosed, Sinopharm",0,0.44,0,0.44,0.44,,Upper Middle
+,,Sinopharm,0,0.39,0,0.39,0.39,,
+,,Undisclosed,0,0.05,0,0.05,0.05,,
+,Malaysia,"CanSino, Sinovac, Sinopharm",19.5,1.5,3.7,0.5,4.2,,Upper Middle
+,,Sinopharm,2,0,0,0,0,,
+,,Sinovac,14,1.5,3.5,0.5,4,In nego with CanSino for 3.5m deal,
+,,CanSino,3.5,0,0.2,0,0.2,,
+,Maldives,Sinopharm,0,0.605,0,0.205,0.205,,Upper Middle
+,Mongolia,Sinopharm,1.2,0.3,1.2,0.3,1.5,,Lower Middle
+,Myanmar,"Sinopharm, Sinovac, Undisclosed",30.7,6.9,28.7,5.9,34.6,,Lower Middle
+,,Sinopharm,26.7,4.5,26.7,3.5,30.2,,
+,,Sinovac,4,2,2,2,4,,
+,,Undisclosed,0,0.4,0,0.4,0.4,,
+,Nepal,"Sinopharm, Sinovac",10,8.4,10,1.9,11.9,,Lower Middle
+,,Sinopharm,10,7.1,10,1.9,11.9,,
+,,Sinovac,0,1.3,0,0,0,,
+,Oman,Sinovac,0,0.1,0,0.1,0.1,Tallied as of 12/7.,High
+,Pakistan,"CanSino, Sinopharm, Sinovac ",88.61,3.5,58.13,3.5,61.63,,Lower Middle
+,,Sinovac,36.55,0,36.45,0,36.45,Purchase number inferred from doses arrived,
+,,Sinopharm,30,3.5,18.9,3.5,22.4,,
+,,CanSino,22.06,0,2.08,0,2.08,,
+,,Undisclosed,0,0,0.7,0,0.7,,
+,Philippines,"Sinopharm, Sinovac",48,3,45.5,3,48.5,Tallied as of 28/6,Lower Middle
+,,Sinovac,48,2,45.5,2,47.5,,
+,,Sinopharm,0,1,0,1,1,,
+,Singapore,"Sinopharm, Sinovac",0.5326,0,0.3326,0,0.3326,,High
+,,Sinovac,0.501,0,0.301,0,0.301,,
+,,Sinopharm,0.0316,0,0.0316,0,0.0316,,
+,Sri Lanka,Sinopharm,19,5,23,3,26,Tallied as of 12/7.,Lower Middle
+,Syrian Arab Republic,Sinopharm,0,0.3,0,0.3,0.3,,Low
+,Tajikistan,Sinovac,2,0.3,2,0.3,2.3,,Lower Middle
+,Thailand,"Sinovac, Sinopharm",45.6,1.1,26.5,1.1,27.6,Data as of 6/6. Purchase number might be higher.,Upper Middle
+,,Sinovac,30.6,1,11.5,1,12.5,,
+,,Sinopharm,15,0.1,15,0.1,15.1,Private purchase by CRA (Thai educational institution),
+,Timor-Leste,Sinovac,0,0.1,0,0.1,0.1,,Lower Middle
+,Turkmenistan,"Sinovac, Sinopharm",0,0,0,0,0,"Undisclosed amount received, purchase/donation",Upper Middle
+,United Arab Emirates,Sinopharm,18,0,3,0,3,UAE has also donated some Chinese vaccines to other countries,High
+,Uzbekistan,Zhifei,20.51,0,18,0,18,,Lower Middle
+,Vietnam,Sinopharm,25,3.7,5,1.5,6.5,,Lower Middle
+,West Bank and Gaza,"Sinopharm, Sinovac",0,0.8,0,0.3,0.3,,Lower Middle
+,,Sinovac,0,0.5,0,0,0,,
+,,Sinopharm,0,0.3,0,0.3,0.3,State of Palestine recognised by UN,"0.1 is Sinopharm, but 0.2 unknown"
+,Kiribati,Sinopharm,0,0.09,0,0.09,0.09,,Lower Middle
+Pacific Islands,Papua New Guinea,Undisclosed,0,0.2,0,0.2,0.2,,Lower Middle
+,Solomon Islands,Sinopharm,0,0.05,0,0.05,0.05,,Lower Middle
+,Vanuatu,Sinopharm,0,0.02,0,0.02,0.02,,Lower Middle
+Europe,Albania,Sinovac,1.34,0,1.34,0,1.34,,Upper Middle
+,Belarus,Sinopharm,1,0.9,1,0.9,1.9,,Upper Middle
+,Bosnia and Herzegovina,Sinopharm,1.08,0.05,1.08,0.05,1.13,,Upper Middle
+,Hungary,Sinopharm,5,0,4.5,0,4.5,,High
+,Moldova,"Sinovac, Undisclosed",0.4,0.15,0.1,0.15,0.25,,Upper Middle
+,,Sinovac,0.4,0,0.1,0,0.1,0.15M donated: vaccine brand was not specified,
+,,Sinopharm,0,0.15,0,0.15,0.15,,
+,Montenegro,Sinopharm,0.2,0.03,0.2,0.03,0.23,,Upper Middle
+,North Macedonia,"Sinopharm, Sinovac",0.7,0.1,0.7,0,0.7,,Upper Middle
+,,Sinovac,0.5,0,0.5,0,0.5,,
+,,Sinopharm,0.2,0.1,0.2,0,0.2,,
+,Serbia,Sinopharm,4,0.2,4,0.2,4.2,"Unspecified amount purchased, but Serbia has purchased an ""additional 2m"".",Upper Middle
+,Turkey,Sinovac,100,0,31.4,0,31.4,"4m sold to azerbaijan, 0.15m donated to Libya",Upper Middle
+,Ukraine,Sinovac,5,0,1.7,0,1.7,,Lower Middle
+"Latin America and the Caribbean
+
+
+(Tally with GHS Brazil)",Antigua and Barbuda,Sinopharm,0,0.02,0,0.02,0.02,,High
+,Argentina,"CanSino, Sinopharm",41.4,0,29.6598,0,29.6598,,Upper Middle
+,,Sinopharm,36,0,29.0598,0,29.0598,,
+,,CanSino,5.4,0,0.6,0,0.6,,
+,Barbados,Sinopharm,0.03,0.03,0.03,0.03,0.06,,High
+,Bolivia,Sinopharm,8.6,0.7,5.3,0.7,6,Tallied as of 24/6,Lower Middle
+,Brazil,Sinovac,100,0,95.91408,0,95.91408,,Upper Middle
+,Chile,"Sinovac, CanSino",61.8,0,20.647384,0,20.647384,Data verified as of 24/5,High
+,,Sinovac,60,0,20.071476,0,20.071476,,
+,,CanSino,1.8,0,0.575908,0,0.575908,,
+,Colombia,Sinovac,13.6,0,13.6,0,13.6,Undisclosed amount purchased.,Upper Middle
+,Cuba,Sinopharm,0,0.25,0,0.25,0.25,,Upper Middle
+,Dominica,Sinopharm,0,0.02,0,0.02,0.02,,Upper Middle
+,Dominican Republic,"Sinovac, Sinopharm",16.536,0.05,15.768,0.05,15.818,Tallied as of 28/6,Upper Middle
+,,Sinovac,15.768,0,15.768,0,15.768,Purchase amount inferred from amount arrived.,
+,,Sinopharm,0.768,0.05,0,0.05,0.05,,
+,Ecuador,"Sinovac, CanSino",21,0.2,15.5,0.2,15.7,,Upper Middle
+,,Sinovac,15,0.2,15,0.2,15.2,Tallied as of 4/7,
+,,CanSino,6,0,0.5,0,0.5,,
+,El Salvador,"Sinopharm, Sinovac",5,0.15,5,0.15,5.15,,Lower Middle
+,,Sinovac,4,0.15,4,0.15,4.15,,
+,,Sinopharm,1,0,1,0,1,,
+,Guyana,Sinopharm,0.1,0.02,0.1,0.02,0.12,,Upper Middle
+,Mexico,"CanSino, Sinovac, Sinopharm",67,0,22.325,0,22.325,,Upper Middle
+,,CanSino,35,0,5.325,0,5.325,,
+,,Sinovac,20,0,17,0,17,,
+,,Sinopharm,12,0,0,0,0,,
+,Peru,Sinopharm,48.5,0,14.5221,0,14.5221,,Upper Middle
+,R. B. de Venezuela,"Undisclosed, Sinopharm",1.3,0.5,1.3,0.5,1.8,,High
+,,Sinopharm,0,0.5,0,0.5,0.5,,
+,,Undisclosed,1.3,0,1.3,0,1.3,,
+,Trinidad and Tobago,Sinopharm,1.56,0.1,1,0.1,1.1,,High
+,Uruguay,Sinovac,1.752,0,1.75,0,1.75,,High
+,TOTAL,,1353.099212,87.34534,940.106334,64.55894,1004.665274,,
