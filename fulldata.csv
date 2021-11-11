@@ -1,0 +1,162 @@
+"","Country","total_doses_delivered","quantity","Population","doses_per_million","quantity_per_million","Region","Industry","Subcategory","usa_quantity","usa_quantity_per_million"
+"1","United Arab Emirates",3e+06,7.34e+09,9890400,303324.4358,742133786.3,"Arab Middle East and North Africa","All Industries Total","All Industries Total",1.02749e+11,10388760818.5715
+"2","Israel",0,6.59e+09,9216900,0,714990940.6,"Arab Middle East and North Africa","All Industries Total","All Industries Total",1.52444e+11,16539617441.8731
+"3","Saudi Arabia",0,2.32e+09,34813867,0,66640112.11,"Arab Middle East and North Africa","All Industries Total","All Industries Total",6.4201e+10,1844121481.82217
+"4","Iraq",2250000,2.27e+09,40222503,55938.83603,56436070.13,"Arab Middle East and North Africa",NA,NA,NA,NA
+"5","Jordan",196000,1.45e+09,10203140,19209.77268,142113114.2,"Arab Middle East and North Africa",NA,NA,NA,NA
+"6","Oman",1e+05,1.21e+09,5106622,19582.41671,236947242.2,"Arab Middle East and North Africa",NA,NA,NA,NA
+"7","Kuwait",0,6.5e+08,4270563,0,152204756.1,"Arab Middle East and North Africa",NA,NA,NA,NA
+"8","Morocco",22500000,3.9e+08,36910558,609581.6812,10566082.47,"Arab Middle East and North Africa",NA,NA,NA,NA
+"9","Egypt",28248800,1.8e+08,102334403,276044.0201,1758939.269,"Arab Middle East and North Africa","All Industries Total","All Industries Total",6.9075e+10,674992944.454857
+"10","Algeria",10400000,0,43851043,237166.5367,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"11","Bahrain",3e+05,0,1701583,176306.4158,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"12","Lebanon",880000,0,6825442,128929.3792,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"13","Libya",5060000,0,6871287,736397.7083,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"14","Syria",3e+05,0,17500657,17142.21358,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"15","Tunisia",1100000,0,11818618,93073.48795,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"16","Palestine",6e+05,0,4803000,124921.9238,0,"Arab Middle East and North Africa",NA,NA,NA,NA
+"17","Turkey",31400000,2.57e+09,84339067,372306.7034,30472236.55,"Arab Middle East and North Africa","All Industries Total","All Industries Total",2.5439e+10,301627714.235919
+"18","Iran",85720000,6e+08,83992953,1020561.808,7143456.428,"Arab Middle East and North Africa",NA,NA,NA,NA
+"19","Australia",0,2.21e+10,25687041,0,859577403.3,"Australia","All Industries Total","All Industries Total",9.88536e+11,38483840937.5373
+"20","New Zealand",0,1.03e+09,5084300,0,202584426.6,"Australia","All Industries Total","All Industries Total",7.2004e+10,14162028204.4726
+"21","Solomon Islands",50000,2e+08,686878,72793.13066,291172522.6,"Australia",NA,NA,NA,NA
+"22","Samoa",0,1.1e+08,198410,0,554407539.9,"Australia",NA,NA,NA,NA
+"23","Kiribati",90000,0,119446,753478.5593,0,"Australia",NA,NA,NA,NA
+"24","Vanuatu",20000,0,307150,65114.76477,0,"Australia",NA,NA,NA,NA
+"25","Kazakhstan",3e+06,1.45e+09,18754440,159962.121,77315025.14,"Central Asia",NA,NA,NA,NA
+"26","Uzbekistan",1.8e+07,7.9e+08,34232050,525823.0226,23077788.21,"Central Asia",NA,NA,NA,NA
+"27","Azerbaijan",5e+05,2.7e+08,10110116,49455.41673,26705925.04,"Central Asia",NA,NA,NA,NA
+"28","Armenia",1e+06,0,2963234,337469.13,0,"Central Asia",NA,NA,NA,NA
+"29","Georgia",3600000,0,3714000,969305.3312,0,"Central Asia",NA,NA,NA,NA
+"30","Kyrgyzstan",2650000,0,6591600,402026.822,0,"Central Asia",NA,NA,NA,NA
+"31","Tajikistan",2300000,0,9537642,241149.7517,0,"Central Asia",NA,NA,NA,NA
+"32","Turkmenistan",0,0,6031187,0,0,"Central Asia",NA,NA,NA,NA
+"33","Japan",0,8.78e+09,125836021,0,69773344.15,"East Asia","All Industries Total","All Industries Total",7.1722e+11,5699639851.13611
+"34","South Korea",0,2.61e+09,51780579,0,50404998.37,"East Asia","All Industries Total","All Industries Total",2.27769e+11,4398734127.71224
+"35","Taiwan",0,1.08e+09,23570000,0,45820958.85,"East Asia","All Industries Total","All Industries Total",1.35314e+11,5740941875.26517
+"36","Mongolia",1500000,1e+08,3278292,457555.3367,30503689.12,"East Asia",NA,NA,NA,NA
+"37","Nepal",23800000,2.9e+08,29136808,816836.2162,9953046.332,"East Asia",NA,NA,NA,NA
+"38","Russia",0,8.84e+09,144104080,0,61344550.41,"Eastern Europe","All Industries Total","All Industries Total",7.7316e+10,536528875.518306
+"39","Serbia",4200000,3.47e+09,6908224,607971.0212,502299867.5,"Eastern Europe",NA,NA,NA,NA
+"40","Czech Republic",0,6.6e+08,10698896,0,61688607.87,"Eastern Europe","All Industries Total","All Industries Total",3.2421e+10,3030312660.29691
+"41","Poland",0,4.5e+08,37950802,0,11857456.93,"Eastern Europe","All Industries Total","All Industries Total",6.9115e+10,1821173634.22254
+"42","Bosnia and Herzegovina",1130000,4.2e+08,3280815,344426.6135,128016971.4,"Eastern Europe",NA,NA,NA,NA
+"43","Hungary",4500000,3.2e+08,9749763,461549.6807,32821310.63,"Eastern Europe","All Industries Total","All Industries Total",5.2433e+10,5377874313.45767
+"44","Croatia",0,2.2e+08,4047200,0,54358568.89,"Eastern Europe",NA,NA,NA,NA
+"45","Ukraine",1700000,1.8e+08,44134693,38518.45078,4078424.2,"Eastern Europe",NA,NA,NA,NA
+"46","Albania",1340000,0,2837743,472206.2569,0,"Eastern Europe",NA,NA,NA,NA
+"47","Belarus",1900000,0,9398861,202152.1544,0,"Eastern Europe",NA,NA,NA,NA
+"48","Moldova",5e+05,0,2617820,190998.6172,0,"Eastern Europe",NA,NA,NA,NA
+"49","Montenegro",230000,0,621718,369942.6428,0,"Eastern Europe",NA,NA,NA,NA
+"50","Brazil",95914080,2.88e+10,212559409,451234.2241,135350395.1,"Latin America","All Industries Total","All Industries Total",4.32824e+11,2036249545.65055
+"51","Chile",41294768,1.3e+10,19116209,2160196.512,677435573.1,"Latin America","All Industries Total","All Industries Total",1.55651e+11,8142357096.01208
+"52","Peru",14522100,1.09e+10,32971846,440439.3979,331494936.6,"Latin America","All Industries Total","All Industries Total",3.7133e+10,1126203246.24833
+"53","Argentina",59319600,2.64e+09,45376763,1307268.216,58179557.67,"Latin America","All Industries Total","All Industries Total",7.1727e+10,1580698914.11161
+"54","Venezuela",3600000,2.07e+09,28435943,126600.3382,72795194.45,"Latin America","All Industries Total","All Industries Total",2.4265e+10,853321446.030469
+"55","Mexico",44650000,1.88e+09,128932753,346304.5577,14581244.53,"Latin America","All Industries Total","All Industries Total",5.94526e+11,4611132440.49012
+"56","Guyana",120000,1.57e+09,786559,152563.2534,1996035898,"Latin America",NA,NA,NA,NA
+"57","Ecuador",31400000,9.2e+08,17643060,1779736.622,52145149.42,"Latin America","All Industries Total","All Industries Total",4.1e+09,232385991.99912
+"58","Colombia",13600000,3.7e+08,50882884,267280.4474,7271600.407,"Latin America","All Industries Total","All Industries Total",4.5592e+10,896018393.925942
+"59","Panama",0,2e+08,4314768,0,46352434.24,"Latin America","All Industries Total","All Industries Total",2.9314e+10,6793876287.2071
+"60","El Salvador",10300000,0,6486201,1587986.558,0,"Latin America",NA,NA,NA,NA
+"61","Bolivia",6e+06,0,11673029,514005.4051,0,"Latin America",NA,NA,NA,NA
+"62","Trinidad",1100000,0,1399491,786000.0529,0,"Latin America","All Industries Total","All Industries Total",0,0
+"63","Uruguay",1750000,0,3473727,503781.6731,0,"Latin America",NA,NA,NA,NA
+"64","Canada",0,1.36e+10,38005238,0,356529802.5,"North America","All Industries Total","All Industries Total",2.288975e+12,60227882272.4383
+"65","Jamaica",0,3e+08,2961161,0,101311613.9,"North America","All Industries Total","All Industries Total",0,0
+"66","Antigua",20000,0,97928,204231.6804,0,"North America",NA,NA,NA,NA
+"67","Barbados",60000,0,287371,208789.335,0,"North America","All Industries Total","All Industries Total",1.98384e+11,690341057378.789
+"68","Cuba",250000,0,11326616,22071.90568,0,"North America",NA,NA,NA,NA
+"69","Dominica",20000,0,71991,277812.5043,0,"North America",NA,NA,NA,NA
+"70","Dominican Republic",31636000,0,10847904,2916323.743,0,"North America","All Industries Total","All Industries Total",1.2174e+10,1122244444.6411
+"71","USA",0,9.22e+10,329484123,0,279952791.5,"North America",NA,NA,NA,NA
+"72","Singapore",665200,2.24e+10,5685807,116993.0671,3930840424,"SE Asia","All Industries Total","All Industries Total",1.554283e+12,273361899199.181
+"73","Indonesia",411358000,1.61e+10,273523621,1503921.301,58788341.35,"SE Asia","All Industries Total","All Industries Total",1.02557e+11,374947507.732796
+"74","Laos",5302000,1.18e+10,7275556,728741.556,1624618105,"SE Asia",NA,NA,NA,NA
+"75","Malaysia",8400000,6.7e+09,32365998,259531.6233,207007366.2,"SE Asia","All Industries Total","All Industries Total",7.3654e+10,2275659783.45546
+"76","Cambodia",69606000,5.55e+09,16718971,4163294.499,331958228.8,"SE Asia",NA,NA,NA,NA
+"77","Philippines",9.7e+07,5.25e+09,109581085,885189.2642,47909728.22,"SE Asia","All Industries Total","All Industries Total",3.5703e+10,325813528.858562
+"78","Myanmar",69200000,3.29e+09,54409794,1271829.847,60467054.88,"SE Asia",NA,NA,NA,NA
+"79","Vietnam",6500000,3.19e+09,97338583,66777.22029,32772205.04,"SE Asia",NA,NA,NA,NA
+"80","Thailand",55200000,2.15e+09,69799978,790831.1948,30802301.97,"SE Asia","All Industries Total","All Industries Total",1.03399e+11,1481361498.42339
+"81","Bhutan",50000,0,771612,64799.40696,0,"SE Asia",NA,NA,NA,NA
+"82","Brunei",152000,0,437483,347442.072,0,"SE Asia",NA,NA,NA,NA
+"83","Papua New Guinea",2e+05,0,8947027,22353.79417,0,"SE Asia",NA,NA,NA,NA
+"84","Timor-Leste",1e+05,0,1318442,75847.09832,0,"SE Asia",NA,NA,NA,NA
+"85","India",0,1.27e+10,1380004385,0,9210115.662,"South Asia","All Industries Total","All Industries Total",2.46725e+11,178785663.786134
+"86","Pakistan",123260000,8.63e+09,220892331,558009.4132,39068807.69,"South Asia",NA,NA,NA,NA
+"87","Bangladesh",82590000,5.9e+09,164689383,501489.5222,35825017.33,"South Asia",NA,NA,NA,NA
+"88","Afghanistan",1400000,0,38928341,35963.51563,0,"South Asia",NA,NA,NA,NA
+"89","Sri Lanka",2.6e+07,3.3e+09,21919000,1186185.501,150554313.6,"South Asia",NA,NA,NA,NA
+"90","Maldives",205000,1.1e+08,540542,379248.976,203499450.6,"South Asia",NA,NA,NA,NA
+"91","Congo",NA,NA,NA,NA,NA,"Sub-Saharan Africa",NA,NA,NA,NA
+"92","Nigeria",470000,7.5e+09,206139587,2280.008449,36383113.55,"Sub-Saharan Africa","All Industries Total","All Industries Total",3.2855e+10,159382292.737396
+"93","Democratic Republic of the Congo",4e+05,5.62e+09,89561404,4466.209574,62750244.51,"Sub-Saharan Africa",NA,NA,NA,NA
+"94","South Africa",0,2.85e+09,59308690,0,48053666.33,"Sub-Saharan Africa","All Industries Total","All Industries Total",5.066e+10,854174995.266292
+"95","Tanzania",1353116,1.93e+09,59734213,22652.27802,32309792.04,"Sub-Saharan Africa",NA,NA,NA,NA
+"96","Guinea",1400000,1.54e+09,13132792,106603.3788,117263716.7,"Sub-Saharan Africa",NA,NA,NA,NA
+"97","Zambia",113600,1.11e+09,18383956,6179.301125,60378734.59,"Sub-Saharan Africa",NA,NA,NA,NA
+"98","Zimbabwe",24833600,1.1e+09,14862927,1670841.82,74009648.3,"Sub-Saharan Africa",NA,NA,NA,NA
+"99","Ethiopia",1800000,1.03e+09,114963583,15657.13205,8959358.895,"Sub-Saharan Africa",NA,NA,NA,NA
+"100","Kenya",2e+05,7.2e+08,53771300,3719.45629,13390042.64,"Sub-Saharan Africa",NA,NA,NA,NA
+"101","Djibouti",3e+05,5.1e+08,988002,303643.11,516193287.1,"Sub-Saharan Africa",NA,NA,NA,NA
+"102","Liberia",0,2.5e+08,5057677,0,49429807.4,"Sub-Saharan Africa",NA,NA,NA,NA
+"103","Republic of Congo",1e+05,2.2e+08,5518092,18122.20601,39868853.22,"Sub-Saharan Africa",NA,NA,NA,NA
+"104","Namibia",350000,2.1e+08,2540916,137745.6004,82647360.24,"Sub-Saharan Africa",NA,NA,NA,NA
+"105","Uganda",1e+06,2e+08,45741000,21862.22426,4372444.853,"Sub-Saharan Africa",NA,NA,NA,NA
+"106","Guinea-Bissau",3e+05,1.7e+08,1967998,152439.1793,86382201.61,"Sub-Saharan Africa",NA,NA,NA,NA
+"107","Mali",0,1.3e+08,20250834,0,6419488.699,"Sub-Saharan Africa",NA,NA,NA,NA
+"108","Chad",2e+05,1.1e+08,16425859,12175.92334,6696757.838,"Sub-Saharan Africa",NA,NA,NA,NA
+"109","Botswana",804494,1e+08,2351625,342101.3129,42523786.74,"Sub-Saharan Africa",NA,NA,NA,NA
+"110","Malawi",0,1e+08,19129955,0,5227403.828,"Sub-Saharan Africa",NA,NA,NA,NA
+"111","Equatorial Guinea",6e+05,0,1402985,427659.5972,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"112","Angola",3700000,0,32866268,112577.4305,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"113","Benin",203000,0,12123198,16744.75662,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"114","Burkina Faso",4e+05,0,20903278,19135.75469,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"115","Burundi",5e+05,0,11890781,42049.38263,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"116","Cameroon",2e+05,0,26545864,7534.130364,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"117","Central African Republic",150000,0,4829764,31057.41813,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"118","Comoros",0,0,869595,0,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"119","Ivory Coast",1e+05,0,26378275,3790.998464,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"120","Gabon",1e+05,0,2225728,44929.11982,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"121","Lesotho",203340,0,2142252,94918.80507,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"122","Madagascar",3e+05,0,27691019,10833.8375,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"123","Mauritania",330000,0,4649660,70972.93135,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"124","Mauritius",1600000,0,1265740,1264082.671,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"125","Mozambique",2260000,0,31255435,72307.42429,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"126","Niger",4e+05,0,24206636,16524.39439,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"127","North Macedonia",1400000,0,2083380,671984.9475,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"128","Rwanda",2e+05,0,12952209,15441.38147,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"129","Senegal",832118,0,16743930,49696.69606,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"130","Sierra Leone",4e+05,0,7976985,50144.25876,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"131","Somalia",2e+05,0,15893219,12583.98314,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"132","South Sudan",0,0,11193729,0,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"133","Sudan",650000,0,43849269,14823.50823,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"134","Togo",4e+05,0,8278737,48316.54877,0,"Sub-Saharan Africa",NA,NA,NA,NA
+"135","UK",0,6.29e+10,67215293,0,936245267.9,"Western Europe","All Industries Total","All Industries Total",4.669474e+12,69470410550.7656
+"136","Switzerland",0,4.83e+10,8636896,0,5589971212,"Western Europe","All Industries Total","All Industries Total",1.224485e+12,141773734452.748
+"137","Germany",0,3.86e+10,83240525,0,464076842.4,"Western Europe","All Industries Total","All Industries Total",8.31558e+11,9989821664.38763
+"138","France",0,1.86e+10,67391582,0,275850476.4,"Western Europe","All Industries Total","All Industries Total",4.79958e+11,7121928077.01116
+"139","Finland",0,1.55e+10,5530719,0,2798912763,"Western Europe","All Industries Total","All Industries Total",2.0145e+10,3642383567.12753
+"140","Netherlands",0,1.36e+10,17441139,0,778045516.4,"Western Europe","All Industries Total","All Industries Total",5.040709e+12,289012604050.687
+"141","Sweden",0,1.01e+10,10353442,0,970691679.2,"Western Europe","All Industries Total","All Industries Total",2.54301e+11,24561976587.1099
+"142","Spain",0,5.07e+09,47351567,0,107071430.2,"Western Europe","All Industries Total","All Industries Total",2.14444e+11,4528762480.02521
+"143","Italy",0,4.33e+09,59554023,0,72707094.87,"Western Europe","All Industries Total","All Industries Total",1.81264e+11,3043690264.21607
+"144","Luxembourg",0,4.33e+09,632275,0,6848285952,"Western Europe","All Industries Total","All Industries Total",4.18022e+12,6611395358032.5
+"145","Greece",0,3.84e+09,10715549,0,358357747.2,"Western Europe","All Industries Total","All Industries Total",3.817e+09,356211333.642355
+"146","Ireland",0,2.76e+09,4994724,0,552583085.7,"Western Europe","All Industries Total","All Industries Total",2.428077e+12,486128362648.266
+"147","Norway",0,1.64e+09,5379475,0,304862463.3,"Western Europe","All Industries Total","All Industries Total",1.59276e+11,29608093726.6183
+"148","Slovenia",0,1.39e+09,2100126,0,661865050,"Western Europe",NA,NA,NA,NA
+"149","Portugal",0,9.5e+08,10305564,0,92183212.87,"Western Europe","All Industries Total","All Industries Total",1.411e+10,1369163298.58317
+"150","Denmark",0,7.3e+08,5831404,0,125184260.9,"Western Europe","All Industries Total","All Industries Total",7.4484e+10,12772910263.1202
+"151","Belgium",0,6.7e+08,11555997,0,57978554.34,"Western Europe","All Industries Total","All Industries Total",3.45002e+11,29854801796.8506
+"152","Austria",0,2.3e+08,8917205,0,25792835.31,"Western Europe","All Industries Total","All Industries Total",4.0777e+10,4572845415.12727
+"153","All Countries Total",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",3.475742e+13,NA
+"154","Bahamas",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",0,NA
+"155","Bermuda",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",1.903257e+12,NA
+"156","China",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",6.39375e+11,NA
+"157","Costa Rica",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",1.0114e+10,NA
+"158","Guatemala",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",0,NA
+"159","Honduras",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",7.562e+09,NA
+"160","Hong Kong",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",4.8075e+11,NA
+"161","Netherlands Antilles",NA,NA,NA,NA,NA,NA,"All Industries Total","All Industries Total",0,NA
