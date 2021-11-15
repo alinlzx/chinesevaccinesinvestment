@@ -10,6 +10,7 @@ library(sf) # spatial data handling
 library(sp)
 library(cowplot)
 library(ggthemes)
+library(gridExtra)
 
 data <- read_csv("fulldata.csv")
 data <- select(data, -X1)
@@ -109,24 +110,32 @@ finalPlot3
 ##################################################
 
 #univariate maps 
-worlddata <- full_join(data_condensed, world_map, by=c("Country"="region"))
-
-worlddata <- filter(worlddata, Country != "Côte d'Ivoire")
-worlddata <- filter(worlddata, Country != "North Macedonia")
-#worlddata[is.na(worlddata)] <- 0
-
-worldplot_investment <- ggplot() + geom_polygon(data=worlddata, aes(x=long, y=lat, group=group, fill=quantity), color="grey50") +
+world_investment <- ggplot() + 
+  geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=quantity), color="grey50") +
   coord_map("albers", parameters=c(0,0)) +
   scale_fill_gradient(name="Investment",low="whitesmoke",high="gold") +
   labs(x="", y="", title="Chinese Investment since 2016") +
   theme_void() +
   theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
-worldplot_investment
+world_investment
 
-worldplot_vaccines <- ggplot() + geom_polygon(data=worlddata, aes(x=long, y=lat, group=group, fill=total_doses_delivered), color="grey50") +
+world_usa_investment <- ggplot() + 
+  geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=usa_quantity), color="grey50") +
+  coord_map("albers", parameters=c(0,0)) +
+  scale_fill_gradient(name="Investment",low="whitesmoke",high="blue") +
+  labs(x="", y="", title="US Investment since 2015") +
+  theme_void() +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
+world_usa_investment
+
+
+world_vaccines <- ggplot() + 
+  geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=total_doses_delivered), color="grey50") +
   coord_map("albers", parameters=c(0,0)) +
   scale_fill_gradient(name="Vaccines",low="whitesmoke",high="darkred") +
   labs(x="", y="", title="Chinese Vaccine Distribution") +
   theme_void() +
   theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
-worldplot_vaccines
+world_vaccines
+
+grid.arrange(world_investment, world_usa_investment, world_vaccines)
