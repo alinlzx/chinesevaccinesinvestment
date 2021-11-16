@@ -1,0 +1,226 @@
+---
+title: "Chinese Vaccines and Investment"
+author: "Advait Arun & Alex Lin"
+date: "11/16/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Research Question
+
+### Do Chinese vaccine distribution patterns track recent Chinese investment patterns?
+The Chinese government is sending Chinese vaccines, made primarily by the companies Sinovac and Sinopharm, around the world. The news portrays most recipient countries as developing nations, many of which aren't able to pay for Western-made Pfizer and Moderna vaccines on their own. The United States government sometimes portrays Chinese vaccine donations as self-serving "vaccine diplomacy" that will end up boosting China. If this is true, China would be sending vaccines to its economic and political allies to bolster goodwill and to reinforce their dependence on China. 
+
+#### Hypothesis: We expect Chinese vaccine disbursement to be higher in countries with higher amounts of Chinese investment.
+For this purpose, we've used Chinese investment over the past five years (since 2016).
+
+## Data
+For Chinese investment, we got our data from the American Enterprise Institute. It goes all the way back to 2000 and includes lots of industry classifications. It also labels whether or not investment recipient countries are part of China's Belt and Road Initiative.
+
+For Chinese vaccines, we got our data from Bridge Consultants, a Beijing-based economic development consultant group. They maintain a Chinese vaccine tracker, and we owe them a debt of gratidute for allowing us to use their data. All vaccine data is as of October 26th.
+
+Later, we look at US Investment Data since 2016. Our data, also segregated by industry, comes from the Bureau of Economic Analysis.
+
+## Data Preparation
+
+```{r prep1, echo=TRUE, message=FALSE, warning=FALSE, results='hide'}
+
+library(tidyverse)
+library(maps)
+library(mapproj)
+library(lubridate) #access lubridate to modify dates and times
+library(biscale)
+library(sf) # spatial data handling
+library(sp)
+library(cowplot)
+library(ggthemes)
+library(gridExtra)
+library(RColorBrewer)
+
+data <- read_csv("fulldata.csv")
+data <- select(data, -X1)
+data$Region <- as.factor(data$Region)
+data$Industry <- as.factor(data$Industry)
+data$Subcategory <- as.factor(data$Subcategory)
+
+data$quantity[is.na(data$quantity)] <- 0
+data$total_doses_delivered[is.na(data$total_doses_delivered)] <- 0
+data$doses_per_million[is.na(data$doses_per_million)] <- 0
+data$quantity_per_million[is.na(data$quantity_per_million)] <- 0
+data$usa_quantity[is.na(data$usa_quantity)] <- 0
+data$usa_quantity_per_million[is.na(data$usa_quantity_per_million)] <- 0
+
+bidata <- bi_class(data, x = quantity, y = total_doses_delivered, style = "jenks", dim = 3)
+bidata <- rename(bidata, Investment_bi_Vaccine = bi_class)
+
+bidata <- bi_class(bidata, x = usa_quantity, y = total_doses_delivered, style = "jenks", dim = 3)
+bidata <- rename(bidata, USInvestment_bi_Vaccine = bi_class)
+
+bidata <- bi_class(bidata, x = quantity, y = usa_quantity, style = "jenks", dim = 3)
+bidata <- rename(bidata, Investment_bi_USInvestment = bi_class)
+
+#MAP PREP
+world_map <- map_data("world")
+biworld <- full_join(bidata, world_map, by=c("Country"="region"))
+
+```
+
+Our FullData spreadsheet combines Chinese investment data, Chinese vaccine disbursement data, and US investment data. We use bi_class to create bivariate class mappings for each pair of the three variables in order to create bivariate chloropleths. We also have each variable in per-million-people format: Chinese vaccines per million people in recipient country, Chinese investment per million people, and US investment per million people. Finally, we join that spreadsheet with the world map.
+
+There's one issue with our bivariate classing. Normally, the bi_class function breaks up observations into quantiles. But because our data has so many zeros, we had to break up our observations differently. We set the "style" argument of bi_class to "jenks": the jenks method of breaking up data finds natural breaks in the numbers where drawing a line seems best. Alex and I are trusting the computer here -- we couldn't figure out a way to make quantiles work no matter how we tried. We believe it's because we just have too many zeros in the data.
+
+Our pre-cartogram data looks like this.
+
+```{r data}
+
+head(bidata)
+
+```
+
+## Bivariate Chloropleths
+
+### Do Chinese Vaccines Follow Chinese Investment?
+
+```{r biworldmap}
+
+biworldmap1 <- ggplot() + geom_polygon(data=biworld, aes(x=long, y=lat, group=group, fill=Investment_bi_Vaccine), color="grey50", show.legend = FALSE, size = 0.1) +
+  coord_map("albers", parameters=c(0,0)) +
+  bi_scale_fill(pal = "DkViolet", dim = 3) + bi_theme() +
+  labs(x="", y="", title="Chinese Investment since 2016") +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank()) +
+  labs(title = "Do Chinese Vaccines follow Chinese Investment?", subtitle = "Dark Blue (DkViolet) Palette")
+
+legend1 <- bi_legend(pal = "DkViolet",
+                    dim = 3,
+                    xlab = "Higher Investment ",
+                    ylab = "Higher Vaccine Disbursement",
+                    size = 8)
+
+finalPlot1 <- ggdraw() +
+  draw_plot(biworldmap1, 0, 0, 1, 1) +
+  draw_plot(legend1, 0, .0, 0.4, 0.4, scale = 1)
+
+finalPlot1
+
+```
+
+The problem with this map is that too many countries are light purple. It's hard to tell if they're receiving zero investment, zero vaccines, or a small number of each. It's the fault of the jenks split, likely. But some regions seem lit up, nonetheless. We can look there!
+
+### Do Vaccines Follow Investment in South and Southeast Asia?
+
+```{r bisseasiamap}
+
+sseasia <- filter(biworld, Region == "SE Asia" | Region == "South Asia")
+
+biworldmap2 <- ggplot() + geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=Investment_bi_Vaccine), color="grey50", show.legend = FALSE, size = 0.1) +
+  coord_map("albers", parameters=c(0,0)) +
+  bi_scale_fill(pal = "DkViolet", dim = 3) + bi_theme() +
+  labs(x="", y="", title="Chinese Investment since 2016") +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank()) +
+  labs(title = "Do Chinese Vaccines follow Chinese Investment?", subtitle = "Dark Blue (DkViolet) Palette")
+
+legend2 <- bi_legend(pal = "DkViolet",
+                     dim = 3,
+                     xlab = "Higher Investment ",
+                     ylab = "Higher Vaccine Disbursement",
+                     size = 8)
+
+finalPlot2 <- ggdraw() +
+  draw_plot(biworldmap2, 0, 0, 1, 1) +
+  draw_plot(legend2, 0, .0, 0.4, 0.4, scale = 1)
+
+finalPlot2
+
+```
+
+Good news: there are more colors at play here. Bad news: the only country that we know for sure receives a nonzero amount of both Chinese investment and vaccines is Indonesia. This graph seems to hint that, in absolute terms, Chinese vaccines just don't follow investment. 
+
+Also, parts of this graph make no sense. It's true that Pakistan is a member of China's Belt and Road Initiative and that China courts the country diplomatically. Pakistan receives a lot of Chinese investment -- so why is it so blue? If anything, this is a country that should be pretty purple. 
+
+Let's look at another region.
+
+### Do Vaccines Follow Investment in Latin America and the Caribbean?
+
+```{r bilacmap}
+
+lac <- filter(biworld, Region == "Latin America")
+
+biworldmap3 <- ggplot() + geom_polygon(data=lac, aes(x=long, y=lat, group=group, fill=Investment_bi_Vaccine), color="grey50", show.legend = FALSE, size = 0.1) +
+  coord_map("albers", parameters=c(0,0)) +
+  bi_scale_fill(pal = "DkViolet", dim = 3) + bi_theme() +
+  labs(x="", y="", title="Chinese Investment since 2016") +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank()) +
+  labs(title = "Do Chinese Vaccines follow Chinese Investment?", subtitle = "Dark Blue (DkViolet) Palette")
+
+legend3 <- bi_legend(pal = "DkViolet",
+                     dim = 3,
+                     xlab = "Higher Investment ",
+                     ylab = "Higher Vaccine Disbursement",
+                     size = 8)
+
+finalPlot3 <- ggdraw() +
+  draw_plot(biworldmap3, 0, 0, 1, 1) +
+  draw_plot(legend3, 0, .0, 0.4, 0.4, scale = 1)
+
+finalPlot3
+
+```
+
+Brazil and Chile clearly receive significant amounts of Chinese investment and vaccines. But these might be the exceptions that prove the rule. The non-purple countries are firmly blue or red.
+
+### Bivariate Maps Don't Do the Trick
+Ultimately, we've made a mistake using bivariate maps. Let's just try univariate maps in these regions to see if we can figure anything out. 
+
+```{r unisseasiamap}
+
+sseasia_investment <- ggplot() + 
+  geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=quantity), color="grey50") +
+  coord_map("albers", parameters=c(0,0)) +
+  scale_fill_gradient(name="Investment",low="whitesmoke",high="gold") +
+  labs(x="", y="", title="Chinese Investment since 2016") +
+  theme_void() +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
+
+sseasia_vaccines <- ggplot() + 
+  geom_polygon(data=sseasia, aes(x=long, y=lat, group=group, fill=total_doses_delivered), color="grey50") +
+  coord_map("albers", parameters=c(0,0)) +
+  scale_fill_gradient(name="Vaccines",low="whitesmoke",high="darkred") +
+  labs(x="", y="", title="Chinese Vaccine Distribution") +
+  theme_void() +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
+
+lac_investment <- ggplot() + 
+  geom_polygon(data=lac, aes(x=long, y=lat, group=group, fill=quantity), color="grey50") +
+  coord_map("albers", parameters=c(0,0)) +
+  scale_fill_gradient(name="Investment",low="whitesmoke",high="gold") +
+  labs(x="", y="", title="Chinese Investment since 2016") +
+  theme_void() +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
+
+lac_vaccines <- ggplot() + 
+  geom_polygon(data=lac, aes(x=long, y=lat, group=group, fill=total_doses_delivered), color="grey50") +
+  coord_map("albers", parameters=c(0,0)) +
+  scale_fill_gradient(name="Vaccines",low="whitesmoke",high="darkred") +
+  labs(x="", y="", title="Chinese Vaccine Distribution") +
+  theme_void() +
+  theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), axis.ticks.x = element_blank(),axis.text.x = element_blank())
+
+grid.arrange(sseasia_investment, sseasia_vaccines)
+grid.arrange(lac_investment, lac_vaccines)
+
+```
+
+These two graph sets are illuminating. Comparing two univariate graphs has been easier for us than exploring one bivariate graph.
+
+### South and Southeast Asia
+Pakistan correctly gets a decent amount of Chinese investment and a lot of Chinese vaccines. Indonesia still gets the most of both. True to reality, India gets no Chinese vaccines but gets more Chinese investment. Interestingly enough, Lao PDR gets a lot of investment but has no reported vaccine disbursements. Meanwhile the rest of mainland Southeast Asia seems to have more vaccines than 
+
+### Latin America
+Mexico, the U.S.'s neighbor, gets Chinese vaccines and some investment. It's the same for Argentina. Brazil and Chile gets lots of both. Chile, one of the most purple countries in the bivariate map, gets fewer vaccines than Argentina does, but more investment than Argentina does.
+
+## So, Do Vaccines Follow the Money?
+
+
